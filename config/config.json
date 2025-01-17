@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "talk-close.com",
+    "dialect": "mysql",
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  },
+  "test": {
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "talk-close.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "109.70.148.66",
+    "dialect": "mysql"
+  }
+}
