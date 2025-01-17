@@ -13,19 +13,12 @@ let sequelize;
 if (config.use_env_variable) {
   sequelize = new Sequelize(process.env[config.use_env_variable], config);
 } else {
-  // Configure Sequelize with connection pooling options
-  sequelize = new Sequelize(config.database, config.username, config.password, {
-    dialect: "mysql", // Assuming you're using MySQL
-    host: config.host || "localhost", // Default to localhost if no host is provided
-    pool: {
-      max: 10, // Maximum number of connections in the pool
-      min: 0, // Minimum number of connections in the pool
-      acquire: 30000, // Maximum time to wait for a connection before throwing an error
-      idle: 10000, // Time before releasing an idle connection
-    },
-    logging: console.log, // Optional: enable SQL query logging for debugging
-    ...config, // Spread the existing config options like database, username, password
-  });
+  sequelize = new Sequelize(
+    config.database,
+    config.username,
+    config.password,
+    config
+  );
 }
 
 fs.readdirSync(__dirname)
