@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "uwqkzpo9ldxgp2gd",
-    "password": "YoAYsmeRZPaQYVy0hSQR",
-    "database": "bsul5k4t6ttk0dddti6i",
-    "host": "bsul5k4t6ttk0dddti6i-mysql.services.clever-cloud.com",
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "talk-close.com",
     "dialect": "mysql"
   },
   "test": {
-       "username": "uwqkzpo9ldxgp2gd",
-    "password": "YoAYsmeRZPaQYVy0hSQR",
-    "database": "bsul5k4t6ttk0dddti6i",
-    "host": "bsul5k4t6ttk0dddti6i-mysql.services.clever-cloud.com",
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "talk-close.com",
     "dialect": "mysql"
   },
   "production": {
-       "username": "uwqkzpo9ldxgp2gd",
-    "password": "YoAYsmeRZPaQYVy0hSQR",
-    "database": "bsul5k4t6ttk0dddti6i",
-    "host": "bsul5k4t6ttk0dddti6i-mysql.services.clever-cloud.com",
+    "username": "talkclzu_ana",
+    "password": "aman@80806431",
+    "database": "talkclzu_chkela_db",
+    "host": "109.70.148.66",
     "dialect": "mysql"
   }
 }
